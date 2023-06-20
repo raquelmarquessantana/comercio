@@ -14,5 +14,16 @@ public class Produto {
 	// Entende-se por membros (atributos e ou métodos)
 	
 	
+	// Métodos Setter's e Getter são responsaveis em atribuir e recuperar informações
+	// dos atributos "RESPECTIVAMENTE"
+	
+    public void setId(Long id) {
+    	this.id = id;
+    }
+    
+    public Long getId() {
+    	return id;
+    }
+	
 	
 }
